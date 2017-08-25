@@ -1,0 +1,94 @@
+//CSS
+
+body {
+	background-color: #1279AC;
+	font-family: 'Kavivanar';
+}
+.board h1 {
+	color: white;
+	font-size: 35px;
+}
+.column {
+	background-color: rgb(170, 245, 265);
+	border-radius: 5px;
+	position: relative;
+  	display: inline-block;
+  	width: 200px;
+  	float: left;
+  	margin-top: 20px;
+  	margin-right: 10px;
+ 	padding-right: 5px;
+ 	box-shadow: 0 8px 6px -6px black;
+ 	min-height: 400px;		 	
+}
+.column .column-title {
+	color: #22BE65;
+}
+.board {
+	margin: 0 auto;
+	text-align: center;
+	width: 1200px;
+	background-color: #66A4C8;
+	border-radius: 5px;
+	box-shadow: 0 8px 6px -6px black;
+}
+.board .create-column {
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	font-size: 15px;
+	line-height: 40px;
+	margin-bottom: 5px;
+	font-family: 'Kavivanar';
+	background-color: #558265;
+	border-radius: 5px;
+	color: white;
+}
+.board .create-column:hover {
+	color: white;
+	background-color: #66A8C6;
+}
+.btn-delete {
+	color: #296D96;
+	border: none;
+	cursor: pointer;
+	background-color: rgb(199, 227, 244);
+	font-family: 'Kavivanar';
+	font-size: 20px;
+	line-height: 30px;
+	float: right;
+}
+.btn-delete:hover {
+	font-size: 25px;
+	color: red;
+	transition: font-size 0.5s, color 0.5s;
+	transition-timing-function: ease;
+}
+.card-list {
+	padding: 10px;
+	margin-top: 10px;
+	list-style-type: none;
+	
+}
+.card-list .card {
+	border: dashed 2px #328BC6;
+	margin-top: 5px;
+	cursor: pointer;
+	background-color: #468BC9;
+}
+.card-description {
+	color: #0079BF;
+}
+.column-add-card {
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	line-height: 30px;
+	font-family: 'Kavivanar';
+	background-color: #4385AC;
+	color: white;
+}
+.column-add-card:hover {
+	cursor: pointer;
+	background-color: #328BC6;
+}
